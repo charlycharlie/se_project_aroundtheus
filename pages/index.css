@@ -9,8 +9,7 @@
 @import url("../blocks/card.css");
 
 .header {
-    margin-top: 45px;
-    max-width: 880px;
+    margin: 45px auto 0px;
 }
 
 .profile {
