@@ -102,6 +102,15 @@
     justify-content: space-between;
 }
 
+.card__title {
+    max-width: 220px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
 .card__like-button {
     background: transparent url(../images/like-inactive.svg) center no-repeat;
     width: 21px;
