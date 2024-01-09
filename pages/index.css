@@ -100,6 +100,8 @@
     padding-right: 20px;
     align-items: center;
     justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .card__title {
@@ -120,7 +122,7 @@
 .footer {
     display: flex;
     justify-content: center;
-    margin-left: 0;
+    margin-left: auto;    
     margin-right: auto;
     margin-top: 67px;
     margin-bottom: 67px;
@@ -152,7 +154,6 @@ footer-text {
     
     }
     .profile {
-        background-color: pink;
         flex-direction: column;
         justify-content: center;
         align-items: center;
