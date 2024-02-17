@@ -8,11 +8,9 @@
   display: flex;
   margin-top: 67px;
   margin-bottom: 60px;
-  width: 318px;
-  height: 18px;
   color: #545454;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -21,7 +19,6 @@
 @media screen and (max-width: 590px) {
   .footer-text {
     width: 282px;
-    height: 14px;
     margin-top: 48px;
     margin-bottom: 36px;
     margin-left: 19px;
