@@ -1,9 +1,9 @@
-# se_project_aroundtheus
+# Around the U.S. by Charley T.
 # Project 3: Around The U.S.
-
+https://charlycharlie.github.io/se_project_aroundtheus/
 ### Overview  
 
-* Intro  
+* description of this project - This project is a page that shows 6 beautiful locations around the world, each with their own card and the ability to like them. in this project the page was made so that it can be displayed between mobile and pc display and everything in between seamlessly. Some of the new techniques that were learned to achieve that was something called grid template column.
 * Figma  
 * Images  
   
