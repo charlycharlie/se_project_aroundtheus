@@ -101,6 +101,10 @@
     font-size: 14px;
     margin-top: 14px;
   }
+  .profile__edit-button {
+    height: 18px;
+    width: 18px;
+  }
   .profile__add-button {
     margin-top: 36px;
     width: 282px;
