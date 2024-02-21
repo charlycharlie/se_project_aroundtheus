@@ -4,13 +4,13 @@
   position: relative;
   margin: auto;
 }
-.footer-text {
+.footer__text {
   display: flex;
   margin-top: 67px;
   margin-bottom: 60px;
   color: #545454;
   font-family: Inter, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -23,5 +23,6 @@
     margin-bottom: 36px;
     margin-left: 19px;
     margin-right: 19px;
+    font-size: 14px;
   }
 }

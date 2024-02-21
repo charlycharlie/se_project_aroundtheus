@@ -1,6 +1,5 @@
 .header {
-  margin: 45px auto 0px;
-  border-bottom: 1px #545454;
+  margin: 45px auto 41px ;
 }
 
 @media screen and (max-width: 590px) {
@@ -12,5 +11,8 @@
     margin-right: 167px;
     margin-left: 27px;
     margin-bottom: 32px;
+    height: 24px;
+    width: 126px;
+
   }
 }
