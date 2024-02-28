@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   padding-top: 40px;
-  border-top:  solid 1px #545454;
 }
 
 .profile__info {
@@ -12,7 +11,6 @@
     "description description";
   grid-template-columns: minmax(auto, 373px) auto;
   grid-gap: 7px 17px;
-  padding-right: 10px;
 }
 
 .profile__edit-button {
@@ -114,8 +112,6 @@
     width: 282px;
   }
   .profile__image {
-    width: 168.75px;
-    height: 168.75px;
     margin-top: 38.25px;
     margin-right: 0;
   }
