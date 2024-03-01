@@ -21,6 +21,7 @@
   border: 1px solid white;
   cursor: pointer;
   align-self: center;
+  margin-right: 20px;
 }
 
 .profile__edit-button:hover {
@@ -71,6 +72,10 @@
   object-fit: cover;
   background-position: center;
   margin-right: 24px;
+}
+@media screen and (max-width: 900px) {
+
+  
 }
 
 @media screen and (max-width: 590px) {

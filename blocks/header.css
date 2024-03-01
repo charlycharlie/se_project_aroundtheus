@@ -10,7 +10,7 @@
     width: 126px;
     margin: 0;
     padding-top: 28px;
-    height: 24px;
+    min-height: 24px;
     width: 100%;
   }
 }
