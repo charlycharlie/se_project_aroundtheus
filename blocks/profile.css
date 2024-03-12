@@ -107,6 +107,7 @@
   .profile__edit-button {
     height: 18px;
     width: 18px;
+    margin-right: 0;
   }
   .profile__add-button {
     margin-top: 36px;
