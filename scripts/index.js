@@ -1,3 +1,4 @@
+const initialCards = ["Yosemite Valley","Lake Louise","Bald Mountains","Latemar","Vanoise National Park","Lago di Braies"];
 
 const cardData = [
     {
@@ -24,5 +25,5 @@ const cardData = [
         name: "Lago di Braies",
         link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/lago.jpg",
     },
-] 
+]; 
 
