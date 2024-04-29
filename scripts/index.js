@@ -1,4 +1,4 @@
-const initialCards = ["Yosemite Valley","Lake Louise","Bald Mountains","Latemar","Vanoise National Park","Lago di Braies"];
+const initialCards = ["Yosemite Valley","Lake Louise","Bald Mountains","Latemar","Vanoise National Park","Lago di Braies  "];
 
 const cardData = [
     {
