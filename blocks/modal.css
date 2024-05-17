@@ -91,5 +91,20 @@
 }
 
 @media screen and (max-width: 630px) {
+    .modal__container {
+        max-width: 282px;
+        padding:25px 22px 25px 22px;
+    }
+    .modal__close {
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        bottom: calc(100% + 13.62px);
+        left: 245.62px;
 
+    }
+    .modal__heading {
+        font-size: 18px;
+        line-height: 21.78px;
+    }
 }
