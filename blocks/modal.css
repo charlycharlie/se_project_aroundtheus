@@ -8,10 +8,10 @@
     background-color: rgba( 0, 0, 0, .5);
     display: flex;
     padding: 0 19px;
-    /*display: none;*/
+    display: none;
 }
 
-.modal__opened {
+.modal_opened {
     display: flex;
 }
 
@@ -74,6 +74,10 @@
     align-items: center;
 }
 
+.modal__button:hover {
+    opacity: 80%;
+}
+
 .modal__close {
     position: absolute;
     bottom: calc(100% + 5px);
@@ -88,6 +92,10 @@
     background-repeat: no-repeat;
     background-size: contain;
 
+}
+
+.modal__close:hover {
+    opacity: 60%;
 }
 
 @media screen and (max-width: 630px) {
