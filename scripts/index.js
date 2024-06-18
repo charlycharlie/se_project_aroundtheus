@@ -38,7 +38,6 @@ const profileDescriptionInput = document.querySelector('#profile-description-inp
 const profileEditForm = profileEditModal.querySelector('.modal__form');
 const cardListEl = document.querySelector('.cards__list')
 const cardTemplate = document.querySelector("#card-template").content.querySelector('.card');
-// const cardImageEl = getCardElement(data);
 
 //* functions *// 
 function closePopup() {
@@ -55,7 +54,6 @@ function getCardElement(cardData) {
     cardImageEl.src = cardData.link;
     cardImageEl.alt = cardData.name;
     cardTitleEl.textContent = cardData.name;
-    cardListEl.append(cardElement);
     return cardElement;
 }
 

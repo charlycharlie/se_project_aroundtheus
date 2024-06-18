@@ -39,28 +39,22 @@
     margin: 0 0 54px;
 }
 
-.modal__title {
-    margin-bottom: 29.74px;
-    border-bottom: 1px rgba( 0, 0, 0, 1) solid;
+.modal__input {
     border-top: none;
+    border-bottom: 1px rgba(0, 0, 0, .2) solid;
     border-right: none;
-    border-left: none;
-    font: "Inter", Arial, sans-serif;
+    border-left: none; font: "Inter", Arial, sans-serif;
     font-weight: 400;
     size: 14px;
     line-height: 16.94px;
 }
 
+.modal__title {
+    margin-bottom: 29.74px;    
+}
+
 .modal__description {
     margin-bottom: 48px;
-    border-bottom: 1px rgba( 0, 0, 0, 1) solid;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    font: "Inter", Arial, sans-serif;
-    font-weight: 400;
-    size: 14px;
-    line-height: 16.94px;
 }
 
 .modal__button {
