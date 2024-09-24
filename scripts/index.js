@@ -53,6 +53,8 @@ const cardTemplate = document
   .querySelector("#card-template")
   .content.querySelector(".card");
 const addNewCardButton = document.querySelector(".profile__add-button");
+const addNewCardModal = document.querySelector('#add-card-form');
+const addCardModalCloseButton = addNewCardModal.querySelector('#modal-close-button');
 
 //* functions *//
 function closePopup(modal) {
@@ -103,12 +105,14 @@ profileEditButton.addEventListener("click", () => {
 // TODO - use anonymous function and pass appropriate modal to handler function
 // use profileEditButton handler as an example
 profileModalCloseButton.addEventListener("click", () => {
-    closePopup(editProfileModal)});
+    closePopup(editProfileModal )});
 addNewCardButton.addEventListener("click", () => {
-    openModal()});
+    openModal(addNewCardModal)});
 
 profileEditForm.addEventListener("submit", handleProfileEditSubmit);
 
+addCardModalCloseButton.addEventListener("click", () => {
+  closePopup(addNewCardModal)});
 
 cardData.forEach((data) => {
   const cardElement = getCardElement(data);
