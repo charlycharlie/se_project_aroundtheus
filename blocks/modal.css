@@ -53,6 +53,7 @@
     margin-bottom: 29.74px;    
 }
 
+
 .modal__description {
     margin-bottom: 48px;
 }
@@ -90,6 +91,21 @@
 
 .modal__close:hover {
     opacity: 60%;
+}
+
+.modal__preview-image {
+    margin: auto;
+    position: relative;
+    border-radius: 0;   
+    padding: 0;
+    background-color: transparent;
+    max-width: 75vw;
+    max-height: 75vh;
+    overflow: hidden;
+}
+
+.modal__close-preview {
+
 }
 
 @media screen and (max-width: 630px) {

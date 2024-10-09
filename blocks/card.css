@@ -3,6 +3,8 @@
   flex-direction: column;
   list-style: none;
   border-radius: 10px;
+  overflow: hidden;
+  position: relative;
 }
 
 .card__image {
@@ -40,6 +42,26 @@
   height: 18px;
   border: none;
   cursor: pointer;
+}
+
+.card__delete-button {
+  background: transparent url(../images/trash-active.svg) center no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 19.3px;
+  padding: 0px;
+  border: none;
+  top: 18px;
+  right: 15px;
+}
+
+.card__delete-button:hover {
+  opacity: 60%;
+}
+
+
+.card__like-button_active {
+  background-image: url(../images/active.svg);
 }
 
 .card__like-button:hover {

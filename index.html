@@ -59,10 +59,18 @@
         </form>
       </div>
     </div>
-
-
+<!-- open picture modal -->
+<div class="modal" id="image-preview">
+  <div class="modal__preview-image">
+    <button class="modal__close-preview" id="modal-close-preview"></button>
+    <img src="" class="modal__image" alt=""/>
+    <p class="modal__title-image"></p>
+  </div>
+</div>
+ 
     <template id="card-template">
       <li class="card">
+        <button type="button" class="card__delete-button"></button>
         <img src="" class="card__image" alt=""/>
         <div class="card__description">
           <h2 class="card__title"></h2>
