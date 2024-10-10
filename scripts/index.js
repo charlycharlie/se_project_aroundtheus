@@ -95,6 +95,9 @@ function getCardElement(cardData) {
     cardPreviewImage.src = cardData.link;
     cardPreviewTitle.textContent = cardData.name;
     cardPreviewImage.alt = cardData.name;
+    // cardPreviewCloseButton.addEventListener("click", () => {
+    //   closePopup(cardImageModal);
+    // })
 
     openModal(cardImageModal);
     });
@@ -111,6 +114,22 @@ function handleProfileEditSubmit(e) {
   profileTitle.textContent = profileTitleInput.value;
   profileDescription.textContent = profileDescriptionInput.value;
   closePopup(editProfileModal);
+}
+
+function openModal(modal) {
+  modal.classList.add('modal_opened');
+  modal.style.display = 'flex';
+  setTimeout(() => {
+    modal.style.opacity = '1';
+  }, 10); // Slight delay to ensure the transition is applied
+}
+
+function closePopup(modal) {
+  modal.style.opacity = '0';
+  modal.addEventListener('transitionend', () => {
+    modal.style.display = 'none';
+    modal.classList.remove('modal_opened');
+  }, { once: true });
 }
 
 function handleAddCardFormSubmit(e) {
