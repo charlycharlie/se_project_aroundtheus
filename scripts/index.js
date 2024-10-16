@@ -116,14 +116,6 @@ function handleProfileEditSubmit(e) {
   closePopup(editProfileModal);
 }
 
-function openModal(modal) {
-  modal.classList.add('modal_opened');
-  modal.style.display = 'flex';
-  setTimeout(() => {
-    modal.style.opacity = '1';
-  }, 10); // Slight delay to ensure the transition is applied
-}
-
 function closePopup(modal) {
   modal.style.opacity = '0';
   modal.addEventListener('transitionend', () => {
@@ -173,5 +165,4 @@ cardPreviewCloseButton.addEventListener("click", () => {
 
 cardData.forEach((data) => renderCard(data, cardListEl));
 
-const likeButton = document.querySelectorAll(".card__like-button");
  
