@@ -73,8 +73,6 @@ const cardPreviewCloseButton = cardImageModal.querySelector(
 //* functions *//
 function closePopup(modal) {
   modal.classList.remove("modal_opened");
-  // modal.style.opacity = "";
-  // modal.style.display = "";
 }
 
 function openModal(modal) {
@@ -122,6 +120,8 @@ function handleAddCardFormSubmit(e) {
   const link = cardUrlInput.value;
   renderCard({ name, link }, cardListEl);
   closePopup(addNewCardModal);
+  cardTitleInput.value = '';
+  cardUrlInput.value = '';
 }
 
 function renderCard(cardData) {
