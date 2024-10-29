@@ -73,6 +73,8 @@
   size: 18px;
   line-height: 21.78px;
   align-items: center;
+  padding: 0;
+  
 }
 
 .modal__button:hover {
@@ -102,11 +104,11 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+  padding: 0;
 }
 
 .modal__preview-image {
   margin: auto;
-  /* position: absolute; */
   border-radius: 0;
   padding: 0;
   background-color: transparent;

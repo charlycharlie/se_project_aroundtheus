@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
     <title>Around The U.S</title>
-    <link href="./pages/index.css" rel="stylesheet" />
+    <link href="./pages/index.css" rel="stylesheet"/>
   </head>
   <body class="page">
     <div class="page__content">
       <header class="header page__section">
-        <img src="./images/aroundtheus.svg" alt="Around the U.S. logo" class="header__logo"/>
+        <img
+          src="./images/aroundtheus.svg"
+          alt="Around the U.S. logo"
+          class="header__logo"
+        />
       </header>
       <main class="content">
         <section class="profile page__section">
@@ -21,18 +25,21 @@
           />
           <div class="profile__info">
             <h1 class="profile__title">Jacques Cousteau</h1>
-            <button type="button" class="profile__edit-button" id="profile-edit-button"></button>
+            <button
+              type="button"
+              class="profile__edit-button"
+              id="profile-edit-button"
+            ></button>
             <p class="profile__description">Explorer</p>
           </div>
           <button type="button" class="profile__add-button"></button>
         </section>
         <section class="cards page__section">
-          <ul class="cards__list">
-          </ul>
+          <ul class="cards__list"></ul>
         </section>
       </main>
       <footer class="footer page__section">
-        <p class="footer__copyright">&copy; 2024 Around The U.S</p>
+        <p class="footer__copyright">&copy;2024 Around The U.S</p>
       </footer>
     </div>
     <!-- Edit modal  -->
@@ -41,9 +48,21 @@
         <button class="modal__close" id="modal-close-button"></button>
         <p class="modal__heading">Edit Profile</p>
         <form class="modal__form">
-        <input type="text" placeholder="jacques Cousteau" name="title" class="modal__title modal__input" id="profile-title-input"/>
-        <input type="text" placeholder="Explorer" name="description" class="modal__description modal__input" id="profile-description-input"/>
-        <button class="modal__button">Save</button>
+          <input
+            type="text"
+            placeholder="jacques Cousteau"
+            name="title"
+            class="modal__title modal__input"
+            id="profile-title-input"
+          />
+          <input
+            type="text"
+            placeholder="Explorer"
+            name="description"
+            class="modal__description modal__input"
+            id="profile-description-input"
+          />
+          <button class="modal__button">Save</button>
         </form>
       </div>
     </div>
@@ -53,21 +72,33 @@
         <button class="modal__close" id="modal-close-button"></button>
         <p class="modal__heading">New Place</p>
         <form class="modal__form">
-        <input type="text" placeholder="Title" name="title" class="modal__title modal__input modal__input_type_title" id="profile-title-input"/>
-        <input type="text" placeholder="URL" name="url" class="modal__description modal__input modal__input_type_url" id="profile-description-input"/>
-        <button class="modal__button">Save</button>
+          <input
+            type="text"
+            placeholder="Title"
+            name="title"
+            class="modal__title modal__input modal__input_type_title"
+            id="profile-title-input"
+          />
+          <input
+            type="text"
+            placeholder="URL"
+            name="url"
+            class="modal__description modal__input modal__input_type_url"
+            id="profile-description-input"
+          />
+          <button class="modal__button">Save</button>
         </form>
       </div>
     </div>
-<!-- open picture modal -->
-<div class="modal" id="image-preview">
-  <div class="modal__container modal__preview-image">
-    <button class="modal__close-preview" id="modal-close-preview"></button>
-    <img src="" class="modal__image" alt=""/>
-    <p class="modal__title-image"></p>
-  </div>
-</div>
- 
+    <!-- open picture modal -->
+    <div class="modal" id="image-preview">
+      <div class="modal__container modal__preview-image">
+        <button class="modal__close-preview" id="modal-close-preview"></button>
+        <img src="" class="modal__image" alt=""/>
+        <p class="modal__title-image"></p>
+      </div>
+    </div>
+
     <template id="card-template">
       <li class="card">
         <button type="button" class="card__delete-button"></button>
@@ -77,7 +108,7 @@
           <button type="button" class="card__like-button"></button>
         </div>
       </li>
-    </template> 
+    </template>
 
     <script src="./scripts/index.js"></script>
   </body>
