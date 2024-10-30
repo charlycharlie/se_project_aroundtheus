@@ -154,4 +154,12 @@
     font-size: 18px;
     line-height: 21.78px;
   }
+  .modal__preview-image {
+    padding: 0;
+  }
+  .modal__image {
+    width: 240px;
+    height: 299px;
+
+  }
 }
